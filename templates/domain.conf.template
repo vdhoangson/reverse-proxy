@@ -19,6 +19,6 @@ server {
 
   location / {
     include /etc/nginx/includes/proxy.conf;
-    proxy_pass http://tichdiem-api-nginx;
+    proxy_pass http://other-nginx;
   }
 }
